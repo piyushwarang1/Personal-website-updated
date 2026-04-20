@@ -2,7 +2,7 @@
 Welcome to my website
 
 # Introduction
-Hello, my name is Piyush Warang, and I love to code and am also learning to code so I can make a website.
+Hello, my name is Piyush Warang, and I love to code and am also learning to build a website.
 
 This is my personal website 
 This website is an update to my previous website
@@ -16,6 +16,9 @@ Clear information
 To get a copy of my website, use 
 gh repo clone piyushwarang1/Personal-website-updated
 in the GitHub CLI in the terminal of your IDE
+
+# AI usage
+AI is used in some parts of the process and is also used to debug the errors
 
 # How to give suggestions
 
