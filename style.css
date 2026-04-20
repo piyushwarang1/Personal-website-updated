@@ -1,0 +1,211 @@
+
+
+body{ 
+    background-color: rgb(23, 78, 140);
+    color: white;
+    font-family: Arial;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{ 
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     background-color : rgb(72, 139, 216);
+     position: sticky;
+     top: 0;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.firstsection{
+   display: flex;
+   justify-content: space-around ;
+   margin: 82px 0;
+   margin-bottom: 120px;
+   
+   
+}
+.firstsection > div{
+   width: 40%;
+   padding: 10px;
+   margin: 80px 0;
+   
+}
+.leftsection{
+    
+    
+    width: 40%;
+    font-size: 2.5rem;
+    font-family: "Arial";
+    font-weight: bold;
+    height: 200px;
+    margin: 80px 0;
+    margin-top: 0%;
+   
+}
+.rightsection{
+    height: 0px;
+   margin: 0px;
+   
+   
+}
+.rightsection img{
+    width: 350px;
+    height: auto;
+    margin: 0px ;
+    object-position: top;
+}
+.purple{
+   color: rgb(61, 83, 192); 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:rgb(156, 238, 248);
+    font-size: 1.1rem;
+}
+#element{
+    color: rgb(149, 161, 223);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+     
+}
+ 
+main{
+    flex: 1 0 auto;
+}
+main hr{
+    border: 0;
+    background: white;
+    height: 1px;
+    margin: 60px 0;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+    color: rgba(204, 193, 193, 0.64);
+}
+
+    .project-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    transition: all 0.3s ease;
+    flex-direction: row;
+    }
+
+
+.card-one{
+    width: 40%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-one h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.card-one p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+
+.card-two{
+    width: 40%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-two h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.card-two p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    
+}
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+     
+}
+ 
+.thirdsection h1{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+     
+}
+ .fourthsection h1{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+ }
+ .fourthsection ul{
+    list-style: none;
+    padding-left: 0;
+ }
+ .fourthsection ul li{
+    margin-top: 10px;
+    margin-bottom: 5px;
+ }
+footer{
+    background-color:black;
+    height: 150px;
+    padding: 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    margin: 23px 23px;
+    flex-shrink: 0;
+}
+
+.footer > div{
+    width: 22%;
+}
+.footer-second ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-second ul li{
+   margin-top: 10px;
+
+}
