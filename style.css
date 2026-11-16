@@ -79,25 +79,29 @@ hr{
 
 .second-section h2{
     padding: 20px;
+    margin-top: 30px;
+    font-size: 35px;
     
 }
 .second-section p {
     padding: 20px;
     margin-right:65%;
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 30px;
 
 }
 .second-section{
     height: auto;
-    min-height: 40vh;
+    min-height: 70vh;
 }
 .second-section .about{
     margin-top:30px;
 }
 
 .third-section{
-    min-height: 60px;
+    min-height: 60vh;
     height: auto;
+    background: rgb(27, 27, 27);
 }
 
 
@@ -140,21 +144,21 @@ hr{
 
 .fourth-section{
     height:60vh;
-    margin-top: 30px;
+  
   display:block;
   block-size: 50%;
   block-direction: inline;
+  background: rgb(30, 28, 28);
 }
 
 .fourth-section h1{
     padding: 30px;
-    margin-top: 30px;
     margin-left: 40%;
 }
 
 .fourth-section p{
     padding: 20px;
-    margin-left: 30%;
+    margin-left: 25%;
     font-size: 20px;
 }
 
@@ -167,8 +171,9 @@ form{
     border: 1px solid #5e5e5e;
     background: rgb(42, 41, 41);
     padding: 20px;
-    width: 100%;
-    max-width: 51vh;
+    width: 50%;
+    margin-left: 25%;
+    
     
    
 
@@ -198,6 +203,10 @@ form{
     width: 100%;
     flex-direction: row-reverse;
 }
+.right-section a{
+    padding: 20px;
+    margin-left: 30%;
+}
 
 
 .links{
@@ -207,4 +216,40 @@ form{
 
 a{
     padding:20px
+}
+
+#background{
+   width: 100%;
+  min-height: 100vh; 
+  height:auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+input,textarea{
+    background: rgb(37, 36, 36);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40vh;
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+.links a{
+    padding: 40px;
+    margin-left: 25%;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius:10px;
+
 }

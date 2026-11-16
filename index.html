@@ -15,17 +15,15 @@
     <P>Piyush Warang</P>
     
         <li>
-            <a href="">Home</a>
-            <a href="">About me</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
+            <a href="#hero">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#Contact">Contact</a>
             
         </li>
    
 </div>
-
-
-<div class="first-section">
+<div  id="hero" class="first-section">
 
 
 <div class="text"> 
@@ -35,16 +33,17 @@
   <h3>Student Coder Learner</h3>
 </div>
 
+
  <hr>
 
 </div>
-   <div class="second-section">
+   <div id="about-me" class="second-section">
     <div class="about">
     <h2>About Me</h2>
     <p>Hi,I am Piyush Warang from India. I code and make website and other software Projects.I am also Part of Hackclub. Also a citizen scientist. organised and volunteered at many tech events.</p>
     </div>
    </div> 
-   <div class="third-section">
+   <div  id="projects" class="third-section">
     <h2>Projects</h2>
     <div class="card-section">
       <div class="card">
@@ -56,7 +55,7 @@
       </div>
       <div class="card">
         <h3>Portfolio Website</h3>
-        <p>A Pernal Portfolio website iwas created to showcase my work and skills.</p>
+        <p>A Personal Portfolio website iwas created to showcase my work and skills.</p>
         <a href="https://github.com/piyushwarang1/Personal-website-updated">View Project</a>
       </div>
       <div class="card">
@@ -71,7 +70,7 @@
       </div>
     </div>
    </div>
-  <div class="fourth-section">
+  <div id="Contact" class="fourth-section">
     <h1>Contact Me</h1>
     <p>Feel free to reach out to me! I can help you in many ways.</p>
 
@@ -97,17 +96,16 @@
       <div class="left-section">
     <div class="contact">
       <div class="links">
-      <a href="mailto:piyushwarang1@gmail.com" style="width: 100%;">Email</a>
-      <a href="https://github.com/piyushwarang1"  style="width: 100%;">GitHub</a>
-      <a href="https://www.linkedin.com/in/piyush-warang-4a49b4399/"  style="width: 100%;" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:piyushwarang1@gmail.com" >Email</a>
+      <a href="https://github.com/piyushwarang1"  >GitHub</a>
+      <a href="https://www.linkedin.com/in/piyush-warang-4a49b4399/"   target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>  
     </div>
     </div>
     </div> 
     </div>
   </div>
-   </footer>
-
+   
    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
    <script>
     var typed = new Typed('#element', {
@@ -115,5 +113,21 @@
       typeSpeed: 40,
     });
   </script>
+  <script src="three.r134.min.js"></script>
+<script src="/node_modules/vanta/dist/vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: "#hero",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x101010,
+  backgroundColor: 0x26262c
+})
+</script>
 </body>
 </html>
