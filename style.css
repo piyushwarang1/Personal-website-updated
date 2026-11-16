@@ -198,3 +198,13 @@ form{
     width: 100%;
     flex-direction: row-reverse;
 }
+
+
+.links{
+    display: flex;
+    flex-direction:column;
+}
+
+a{
+    padding:20px
+}
