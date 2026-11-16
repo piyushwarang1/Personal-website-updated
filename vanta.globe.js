@@ -1,5 +1,5 @@
-import VantaBase, {VANTA} from './_base.js'
-import {rn, getBrightness} from './helpers.js'
+import VantaBase, {VANTA} from 'vanta'
+import {rn, getBrightness} from 'vanta/src/helpers.js'
 
 const win = typeof window == 'object'
 let THREE = win && window.THREE
